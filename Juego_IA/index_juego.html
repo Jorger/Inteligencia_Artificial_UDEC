@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Piedra, papel, Tijera, lagarto y Spock</title>
+</head>
+<script src = "lagarto2.js"></script>
+<body>
+	<table width="100%" border="0" cellspacing="0" cellpadding="0">
+	<tr>
+    	<td width="30%"><h1>Humano: <span id = 'pun_1'>0</span></h1></td>
+    	<td width="70%"><label for="select"></label>
+      		<select name="jugada_humano" id="jugada_humano" style="font-size:20px;">
+      			     <option value="1">Piedra</option>
+      			     <option value="2">Papel</option>
+      			     <option value="3">Tijera</option>
+      			     <option value="4">Lagarto</option>
+      			     <option value="5">Spock</option>
+    		</select>
+    	</td>
+  	</tr>
+  	<tr>
+    	<td><h1>Robot: <span id = 'pun_2'>0</span></h1></td>
+    	<td>
+    		<h1><div id = 'juega_pc'>JUGADA ROBOT</div></h1>
+    	</td>
+    </tr>
+    <tr>
+    	<td>&nbsp;</td>
+    	<td>
+    		<input type="button" name="button" id="button" value="Jugar!!" onclick = "jugar();" style="font-size:30px;"/></td>
+    	</tr>
+    <tr>    
+    <td colspan="2">
+    	<br><br>
+    	<h1><div id = "resultado" align="center"></div></h1>
+    </td>
+  </tr>
+</table>
+</body>
+</html>
