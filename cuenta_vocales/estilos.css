@@ -1,0 +1,22 @@
+textarea
+{
+	font-size: 25px;
+	width: 99%;
+	height: 100px;
+	margin: 5px;
+}
+
+.encuentra
+{
+	color: red;
+	font-weight: bold;
+}
+.fuente
+{
+	font-size: 20px;
+	font-family: Arial;
+}
+hr
+{
+	border: 2px solid blue;
+}

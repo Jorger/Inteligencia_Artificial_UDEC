@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Contabiliza Vocales</title>
+	<link rel="stylesheet" href="estilos.css">
+	<script src = 'script.js'></script>
+</head>
+<body>
+	<textarea id = "texto" placeholder = "Escriba una frase"></textarea>
+	<br>
+	<input type="checkbox" name="conAcentos" id = "conAcentos" value = "1" checked/>
+	<label for = "conAcentos">Tener en cuenta acentos</label>
+	<hr/>
+	Tipo ordena: 
+	<select id = "opcOrdenar">
+		<option value="0">No ordenar</option>
+  		<option value="1">De mayor a menor</option>
+  		<option value="2">De menor a mayor</option>
+	</select>
+	<hr>
+	<div id="conteo">
+		Cantidad de Vocales...
+	</div>
+</body>
+</html>
