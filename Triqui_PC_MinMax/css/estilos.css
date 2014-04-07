@@ -1,0 +1,52 @@
+#chess_board td 
+{
+	text-align:center;
+	vertical-align:middle;
+	height:180px;
+	width:180px;
+	border: 1px solid black;
+	
+	background:#fff;
+	background:-moz-linear-gradient(top, #fff, #eee);
+	background:-webkit-gradient(linear,0 0, 0 100%, from(#fff), to(#eee));
+	
+	box-shadow:inset 0 0 0 1px #fff;
+	-moz-box-shadow:inset 0 0 0 1px #fff;
+	-webkit-box-shadow:inset 0 0 0 1px #fff;
+	font-size: 60px;
+	font-family: Arial;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+#chess_board tr:nth-child(odd) td:nth-child(even),
+#chess_board tr:nth-child(even) td:nth-child(odd) 
+{
+	background:#ccc;
+	background:-moz-linear-gradient(top, #ccc, #eee);
+	background:-webkit-gradient(linear,0 0, 0 100%, from(#ccc), to(#eee));
+	box-shadow:inset 0 0 10px rgba(0,0,0,.4);
+	-moz-box-shadow:inset 0 0 10px rgba(0,0,0,.4);
+	-webkit-box-shadow:inset 0 0 10px rgba(0,0,0,.4);
+}
+
+#puntuacion
+{
+	font-size: 30px;
+	font-weight: bold;
+	font-family: Arial;
+}
+
+#inicia
+{
+	color: blue;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: Arial;
+
+}
+
+select
+{
+	font-size: 40px;
+}
