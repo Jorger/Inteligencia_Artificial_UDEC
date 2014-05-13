@@ -1,0 +1,151 @@
+body
+{
+	background-color: #424100;
+	color: white;
+	font-size: 20px;
+}
+table
+{
+	background-color: black;
+
+}
+
+.brillo
+{
+	background-image: url(brillo.gif);	
+}
+
+.muerto
+{
+	background-image: url(wumpusMuerto.gif);
+}
+
+#chess_board td 
+{
+	height:64px;
+	text-align:center;
+	vertical-align:middle;
+	width:64px;
+	/*border: 1px solid white;*/
+}
+#chess_board tr:nth-child(odd) td:nth-child(even),
+#chess_board tr:nth-child(even) td:nth-child(odd) 
+{
+	
+	/*
+	background:#ccc;
+	background:-moz-linear-gradient(top, #ccc, #eee);
+	background:-webkit-gradient(linear,0 0, 0 100%, from(#ccc), to(#eee));
+	*/
+	/*
+	box-shadow:inset 0 0 10px rgba(0,0,0,.4);
+	-moz-box-shadow:inset 0 0 10px rgba(0,0,0,.4);
+	-webkit-box-shadow:inset 0 0 10px rgba(0,0,0,.4);
+	*/	
+}
+
+#personaje
+{
+	width: 64px;
+	height: 64px;
+	/*border: 1px solid red; */
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	z-index: 100;
+}
+
+.basewumpus
+{
+	width: 64px;
+	height: 64px;
+	/*border: 1px solid red;*/
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+
+
+#oro
+{
+	width: 64px;
+	height: 64px;
+	/*border: 1px solid blue;*/
+	position: absolute;
+	left: 128px;
+	top: 128px;
+}
+
+#escenario
+{
+	margin-top: 10px;
+	position: relative;
+	border: 1px solid red;
+	background-size: 600px 400px;
+	background-repeat:no-repeat;
+	width: 512px;
+	height: 512px;
+	/*
+	width: 100%;
+	height: 100%;
+	*/
+}
+
+#percibe
+{
+	position: absolute;
+	top: 20px;
+	/*background-color: white;*/
+	/*opacity:0.2;*/
+	/*border: 1px solid gray;
+	border-radius: 10px;*/
+	overflow: auto;
+	height: 400px;
+	margin-top: 5px;
+	width: 50%;
+	/*color: black;*/
+	padding: 10px;
+	font-size: 14px;
+	font-family: Arial;
+	z-index: 100;
+
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+.basepersonaje
+{
+	background-image: url(personaje.png);
+}
+
+.front_1{ background-position: 0 0; width: 64px; height: 64px; } 
+.front_2{ background-position: -69px 0; width: 64px; height: 64px; } 
+.front_3{ background-position: -138px 0; width: 64px; height: 64px; } 
+.front_4{ background-position: -207px 0; width: 64px; height: 64px; } 
+.left_1{ background-position: -276px 0; width: 64px; height: 64px; } 
+.left_2{ background-position: -345px 0; width: 64px; height: 64px; } 
+.left_3{ background-position: -414px 0; width: 64px; height: 64px; } 
+.left_4{ background-position: -483px 0; width: 64px; height: 64px; } 
+.right_1{ background-position: -552px 0; width: 64px; height: 64px; } 
+.right_2{ background-position: -621px 0; width: 64px; height: 64px; } 
+.right_3{ background-position: -690px 0; width: 64px; height: 64px; } 
+.right_4{ background-position: -759px 0; width: 64px; height: 64px; } 
+.top_1{ background-position: -828px 0; width: 64px; height: 64px; } 
+.top_2{ background-position: -897px 0; width: 64px; height: 64px; } 
+.top_3{ background-position: -966px 0; width: 64px; height: 64px; } 
+.top_4{ background-position: -1035px 0; width: 64px; height: 64px; } 
+
+.basemundo
+{
+	background-image: url(escenografia.png);
+}
+
+.avismo{ background-position: 0 0; width: 64px; height: 64px; } 
+.viento{ background-position: -114px 0; width: 64px; height: 64px; } 
+.oro{ background-position: -228px 0; width: 64px; height: 64px; } 
+.piso{ background-position: -342px 0; width: 64px; height: 64px; } 
+.hedor{ background-position: -456px 0; width: 64px; height: 64px; } 
+.viento_hedor{ background-position: -570px 0; width: 64px; height: 64px; } 
+.wumpus{ background-position: -684px 0; width: 64px; height: 64px; } 
