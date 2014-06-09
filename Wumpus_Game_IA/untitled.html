@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Editor Wumpus</title>
+	<script src = "editor.js"></script>
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<style>
+	.borrador
+	{
+		background-image: url(imgeditor/borrar.png);
+		width: 64px;
+		height: 64px;	
+	}
+	</style>
+</head>
+<body>
+	<center>
+		<table style = "background-color: #424100;">
+			<tr>
+				<td valign="top" width = "20%">
+					<center>
+						<select id = "dimensiones">
+						  <option value="4">4x4</option>
+						  <option value="5">5x5</option>
+						  <option value="6">6x6</option>
+						  <option value="7">7x7</option>
+						  <option value="8">8x8</option>
+						  <option value="9">9x9</option>
+						  <option value="10">10x10</option>
+						</select>
+						<div id="elementos">
+							hola
+						</div>
+					</center>
+				</td>
+				<td width = "80%">
+					<center>
+						<div id="escenario"></div>
+					</center>
+				</td>
+			</tr>
+		</table>
+	</center>
+</body>
+</html>
